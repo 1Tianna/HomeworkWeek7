@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 80px;
+    margin-right: 10px;
+}
+
+#foodList {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.food-item span {
+    font-weight: bold;
+}

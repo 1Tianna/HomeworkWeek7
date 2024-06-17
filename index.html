@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Filter</title>
+       <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Filter Food by Calories, Fat, and Protein</h1>
+
+    <div>
+        <label for="calories">Max Calories:</label>
+        <input type="number" id="calories" min="0">
+        <label for="fat">Max Fat(g):</label>
+        <input type="number" id="fat" min="0">
+        <label for="protein">Min Protein(g):</label>
+        <input type="number" id="protein" min="0">
+        <button id="filterButton">Filter</button>
+        <button id="resetButton">Reset</button>
+    </div>
+
+    <ul id="foodList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
